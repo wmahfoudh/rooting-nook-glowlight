@@ -1,5 +1,5 @@
 # Rooting the NOOK GlowLight Plus (Linux)
-# and allowing it to open Arabic eBooks
+# and opening Arabic eBooks (epub)
 
 *It's a pity that the Barnes & Noble NOOK having such interesting hardware is not able to read Arabic (and Hebrew) eBooks out of the box. The problem is in the stock application wich does not support it. Once rooted you can unlock the full potential of the device like installing a [better launcher](https://kisslauncher.com/) and using the integrated browser or a third party capable reader.*
 
