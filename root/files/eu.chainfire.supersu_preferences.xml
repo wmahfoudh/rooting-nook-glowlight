@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="config_default_access">prompt</string>
+    <string name="config_default_logage">3</string>
+    <string name="theme">light</string>
+    <string name="config_default_log">access</string>
+    <string name="locale"></string>
+    <boolean name="config_default_enablemountnamespaceseparation" value="true" />
+    <string name="config_default_logformat">31122359</string>
+    <boolean name="config_default_enablemultiuser" value="false" />
+    <boolean name="config_default_notify" value="true" />
+    <boolean name="tapjack" value="true" />
+    <string name="config_default_wait">10</string>
+    <boolean name="reauthenticate" value="true" />
+    <boolean name="freeload" value="false" />
+    <boolean name="survival" value="false" />
+    <int name="shown_follow" value="1" />
+    <boolean name="config_default_trustsystem" value="false" />
+    <boolean name="config_default_enableduringboot" value="true" />
+    <boolean name="refresh" value="true" />
+    <boolean name="superuser" value="true" />
+</map>
