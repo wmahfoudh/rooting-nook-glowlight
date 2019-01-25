@@ -1,5 +1,5 @@
 # Rooting the Barnes & Noble NOOK GlowLight Plus (Linux)
-## and allowing by the way your NOOK to open Arabic eBooks
+# and allowing it to open Arabic eBooks
 
 *It's a pity that the NOOK with such interesting hardware is not able to read Arabic (and Hebrew) eBooks out of the box. The problem is in the stock application. Once rooted you can benefit from the full potential of the device like installing a [better launcher](https://kisslauncher.com/), use the integrated browser or a third party capable reader.*
 
@@ -23,7 +23,7 @@ You should have something like this
 XXXXXXXXXXXXXXXX        unauthorized
 # XXXXXXXXXXXXXXXX being the serial number of your NOOK
 ````
-Go to *Setting* menu then to *About*. Click 8 times (or more) on the icon just above the *Check for system update* button, you will enter the developer settings page. Click on the second button *(Android development settings)* and tick the *USB debugging* checkbox. Ensure *Developer options* on the top of the page is et to *ON*.
+Go to *Setting* menu then to *About*. Click 8 times (or more if you want) on the icon just above the *Check for system update* button, you will enter the developer settings page. Click on the second button *(Android development settings)* and tick the *USB debugging* checkbox. Ensure *Developer options* on the top of the page is et to *ON*.
 
 Unplug your device and plug it again. Run ``adb devices`` again and you should now have your device recognized
 ````bash
