@@ -45,7 +45,7 @@ Success
 Restarting adbd as root...
 Rooted.
 ````
-On some devices the boot animation will lag, just remove or rename the file as follows
+On some devices the boot animation will lag, just press the wake button to open the device. If that annoys you, you can remove the boot animation by deleting or renaming the animation file
 ````bash
 adb shell
 su
@@ -53,7 +53,7 @@ su
 mount -o remount, rw /system
 mv /system/bin/bootanimation /system/bin/bootanimation.bak
 ````
-You can use ``adb`` to upload an ebook to your NOOK
+Finally, you can use ``adb`` to upload an ebook to your NOOK, here is a sample Arabic epub
 ````bash
 adb push AR-Kalila-wa-Dimna.epub /sdcard/NOOK/My\ Files
 # "Kalila wa Dimna" is famous collction of fables translated from Persian to Arabic in the eighth century
