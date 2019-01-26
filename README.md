@@ -10,7 +10,7 @@ All the credit goes to the author of the original rooting script that can be fou
 ## Let's do it
 
 Install ADB (Android Debug Bridge) included in the Android platform tools
-````bash
+````console
 sudo pacman -S android-tools
 ````
 In order to have our nook listed as a normal device under ``/dev/`` we need to install the ``android-udev`` package
