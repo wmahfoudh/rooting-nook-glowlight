@@ -68,7 +68,7 @@ A sample Arabic ebook on the ``Moon+ Reader`` application
 
 ![Browser view](/images/im-b.jpg)
 ## Bonus: Rooting the GlowLight 3
-An [XDA](https://forum.xda-developers.com/nook-touch/general/how-to-root-set-nook-glowlight-3-t3802331) post reports that the same script works on the NOOK GlowLight 3, you just need to change the model number in ``rootnook.sh`` from **BNRV510** to **BNRV520**
+[This XDA post](https://forum.xda-developers.com/nook-touch/general/how-to-root-set-nook-glowlight-3-t3802331) reports that the same script works on the NOOK GlowLight 3, you just need to change the model number in ``rootnook.sh`` from **BNRV510** to **BNRV520**
 
 ````bash
 ANDROID_SERIAL=`adb devices -l | grep BNRV510 | sed 's/ .*//'`
