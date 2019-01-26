@@ -10,16 +10,16 @@ All the credit goes to the author of the original rooting script that can be fou
 ## Let's do it
 
 Install ADB (Android Debug Bridge) included in the Android platform tools
-````console
+````shell
 sudo pacman -S android-tools
 ````
 In order to have our nook listed as a normal device under ``/dev/`` we need to install the ``android-udev`` package
-````console
+````shell
 sudo pacman -S android-udev
 ````
 Connect your NOOK and run ``adb devices``
 You should have something like this
-````console
+````shell
 XXXXXXXXXXXXXXXX        unauthorized
 ````
 *XXXXXXXXXXXXXXXX being the serial number of your NOOK*
@@ -27,18 +27,18 @@ XXXXXXXXXXXXXXXX        unauthorized
 Go to *Setting* menu then to *About*. Click 8 times (or more if you want) on the icon just above the *Check for system update* button, you will enter the developer settings page. Click on the second button *(Android development settings)* and tick the *USB debugging* checkbox. Ensure *Developer options* on the top of the page is et to *ON*.
 
 Unplug your device and plug it again. Run ``adb devices`` again and you should now have your device recognized
-````console
+````shell
 XXXXXXXXXXXXXXXX        device
 ````
 If you are still not able to see your NOOK, please follow [these instructions](https://wiki.archlinux.org/index.php/Android_Debug_Bridge).
 
 Download the *root* folder and its contents in your home directory. Launch the root script as follows
-````console
+````shell
 chmod 755 rootnook.sh
 ./rootnook.sh
 ````
 After a few seconds, you should have the following output, and the ``supersu`` app lauches on your device
-````console
+````shell
 ./rootnook.sh: line 13: [: too many arguments
 files/: 9 files pushed. 1.3 MB/s (7413987 bytes in 5.599s)
 pkg: /data/local/tmp/.nookrooter/eu.chainfire.supersu.apk
@@ -47,7 +47,7 @@ Restarting adbd as root...
 Rooted.
 ````
 On some devices the boot animation will lag, just press the wake button to open the device. If that annoys you, you can remove the boot animation by deleting or renaming the animation file
-````console
+````shell
 adb shell
 su
 # here you should grant root access when asked by the supersu app on the device
@@ -55,7 +55,7 @@ mount -o remount, rw /system
 mv /system/bin/bootanimation /system/bin/bootanimation.bak
 ````
 Finally, you can use ``adb`` to upload an ebook to your NOOK, here is a sample Arabic epub
-````console
+````shell
 adb push AR-Kalila-wa-Dimna.epub /sdcard/NOOK/My\ Files
 # "Kalila wa Dimna" is famous collction of fables translated from Persian to Arabic in the eighth century
 ````
