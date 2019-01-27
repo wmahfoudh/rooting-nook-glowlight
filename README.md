@@ -1,7 +1,7 @@
 # Rooting the NOOK GlowLight Plus (Linux)
 # and opening Arabic eBooks (epub)
 
-*It's a pity that the Barnes & Noble NOOK having such interesting hardware is not able to read Arabic (and Hebrew) eBooks out of the box. The problem is in the stock application wich does not support it. Once rooted you can unlock the full potential of the device like installing a [better launcher](https://kisslauncher.com/) and using the integrated browser or a third party capable reader.*
+*It's a pity that the Barnes & Noble NOOK having such interesting hardware is not able to read Arabic (and Hebrew) eBooks out of the box. The problem is in the stock application wich does not support it. Once rooted you can unlock the full potential of the device like installing a better launcher (see below) and using the integrated browser or a third party capable reader.*
 
 *Disclaimer: Please note that rooting your device voids its warranty and can brick it. Do it at your own risk!*
 
@@ -68,6 +68,13 @@ The integrated browser
 A sample Arabic ebook on the ``Moon+ Reader`` application
 
 ![Browser view](/images/im-b.jpg)
+
+## For a better experience
+1. Install [ReLaunch](https://forum.xda-developers.com/nook-touch/general/relaunch-best-nst-launcher-version-1-4-t3060782), an excellent community launcher and file manager well adapted to the NOOK
+2. Install a good reader like ``Moon+`` or ``Aldiko``
+3. [Optional] Disable the stock NOOK applications (Settings -> Apps -> -> All), this will save some battery and some data sent by the application
+4. Install ``Button Savior`` application to have a floating back button just like normal tablets
+
 ## Bonus: Rooting the GlowLight 3
 [This XDA post](https://forum.xda-developers.com/nook-touch/general/how-to-root-set-nook-glowlight-3-t3802331) reports that the same script works on the NOOK GlowLight 3, you just need to change the model number in ``rootnook.sh`` from **BNRV510** to **BNRV520**
 
