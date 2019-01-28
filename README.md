@@ -72,7 +72,7 @@ A sample Arabic ebook on the ``Moon+ Reader`` application
 ## For a better experience
 1. Install [ReLaunch](https://forum.xda-developers.com/nook-touch/general/relaunch-best-nst-launcher-version-1-4-t3060782), an excellent community launcher and file manager well adapted to the NOOK
 2. Install a good reader like ``Moon+`` or ``Aldiko``
-3. [Optional] Disable the stock NOOK applications (Settings -> Apps -> -> All), this will save some battery and some data sent in the backgroung
+3. [Optional] Disable the stock NOOK application (Settings -> Apps -> All -> NOOK), this will save some battery and some data sent in the backgroung *(I don't have books purchasedfrom B&N, so I don't mind the service disconnection)*
 4. Install ``Button Savior`` application to have a floating back button just like normal tablets
 
 ## Bonus: Rooting the GlowLight 3
